@@ -13,7 +13,10 @@ if ($action == "store") {
         $_POST['stock'],
         $_POST['price'],
         $_POST['category_id'],
-        $_POST['expired_at']
+        $_POST['expired_at'],
+        $_POST['created_at'],
+        $_POST['updated_at'],
+        $_POST['deleted_at']
     );
     return header("location:../");
 }

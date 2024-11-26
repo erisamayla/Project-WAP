@@ -14,19 +14,19 @@
         <div class="container mt-5">
             <div class="row mb-4">
                 <div class="col-12">
-                    <h5 class="mb-4">Create Inventory</h5>
-                    <form action="controller/pharmacy.php?action=store" method="POST">
+                    <h5 class="mb-4">Halaman Register</h5>
+                    <form action="controller/auth.php?action=register" method="POST">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Product Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Input product name" name="name">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Input your name" name="name">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Stock</label>
-                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Input product stock" name="stock">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Input your email" name="email">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Expired at</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Input product expired at" name="expired_at">
+                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Input your password" name="password">
                         </div>
                         <div class="mb-3">
                             <button type="submit" class="btn btn-primary">

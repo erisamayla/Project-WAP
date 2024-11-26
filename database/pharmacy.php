@@ -24,7 +24,7 @@
         }
 
         function store($name, $stock, $expired_at){
-            $query = "INSERT INTO `pharmacy_app` (`name`, `stock`, `expired_at`) VALUES (?,?,?)";
+            $query = "INSERT INTO pharmacy_app (name, description, stock, price, image) VALUES (?,?,?)";
 
             $process = $this->database->connection->prepare($query);
 

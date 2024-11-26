@@ -10,18 +10,6 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 60px;
-    /* Vertically center the text there */
-    background-color: #f5f5f5;
-}
-
 /* Custom page CSS
   -------------------------------------------------- */
 
@@ -29,11 +17,6 @@ body {
 
 body>.container {
     padding: 60px 15px 0;
-}
-
-.footer>.container {
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 code {
@@ -63,4 +46,42 @@ code {
 
 .card{
     width: 20rem;
+}
+
+.footer {
+    width: 100%; /* Lebar penuh */
+    background-color: #1b2b2d; /* Warna hijau tua */
+    color: #d6f5e8; /* Warna teks hijau pucat */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer .social-icons {
+    margin-bottom: 10px;
+}
+
+.footer .social-icons .social-link {
+    margin: 0 10px;
+    font-size: 24px; /* Ukuran icon */
+    color: #d6f5e8;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer .social-icons .social-link:hover {
+    transform: scale(1.2);
+    color: #ffffff; /* Warna saat hover */
+}
+
+.footer a {
+    color: #d6f5e8;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.card{
+    margin-bottom: 30px;
 }
